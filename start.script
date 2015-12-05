@@ -21,6 +21,26 @@
      syscall(motorleftset,  itos(100));     // Left Motor =  -100 = Full Reverse
     syscall(motorrightset,  itos(100));   //  Right Motor = 100 = Full Forwards
     
-    syscall(delay, itos(4000));
+    syscall(delay, itos(4500));
+    
+    syscall(motorleftset, itos(-100));
+    syscall(motorrightset, itos(100));
+    
+    syscall(delay, itos(1300));
+    
+     syscall(motorleftset,  itos(100));     // Left Motor =  -100 = Full Reverse
+    syscall(motorrightset,  itos(100));   //  Right Motor = 100 = Full Forwards
+    
+    syscall(delay, itos(2000));
+    
+    syscall(motorleftset,  itos(100));   //  Left Motor  =  100 = Full Forwards
+    syscall(motorrightset, itos(-100));     //  Right Motor =    -100 = Full Reverse
+
+    syscall(delay, itos(1250));    //  Delay for 1,000ms = 1s
+    
+ syscall(motorleftset,  itos(100));     // Left Motor =  -100 = Full Reverse
+    syscall(motorrightset,  itos(100));   //  Right Motor = 100 = Full Forwards
+    
+    syscall(delay, itos(2000));
     
     syscall(motorset, "0:0");      //  Turn off the motors (stop)
