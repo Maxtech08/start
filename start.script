@@ -8,6 +8,6 @@
     
     syscall(delay, itos(1000));   //  Delay for 1,000ms = 1s
     
-    syscall(cleardisplay, itos"0");
+    syscall(cleardisplay, itos"0");    //  Clear Display
     
     syscall(motorset, "0:0");      //  Turn off the motors (stop)
