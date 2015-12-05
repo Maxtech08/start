@@ -1,0 +1,16 @@
+    syscall(motorleftset,  itos(100));   //  Left Motor  =  100 = Full Forwards
+    syscall(motorrightset, itos(0));     //  Right Motor =    0 = Stopped
+
+    syscall(delay, itos(1000));    //  Delay for 1,000ms = 1s
+
+    syscall(motorleftset,  itos(100));     // Left Motor =  100 = Full Forwards
+    syscall(motorrightset,  itos(100));   //  Right Motor = 100 = Full Forwards
+    
+    syscall(delay, itos(1000));   //  Delay for 1,000ms = 1s
+    syscall(cleardisplay, itos"");
+   
+    syscall(setcursory, "0");
+    syscall(setcursorx "0")
+    syscall(drawtext, "helli")
+    
+    syscall(motorset, "0:0");      //  Turn off the motors (stop)
