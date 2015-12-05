@@ -1,0 +1,10 @@
+{
+    "name": "start",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "c",
+    "executable": "start.script",
+    "author": "Maxtech08",
+    "minimum_firmware_version": 42
+}
