@@ -8,9 +8,5 @@
     
     syscall(delay, itos(1000));   //  Delay for 1,000ms = 1s
     syscall(cleardisplay, itos"");
-   
-    syscall(setcursory, "0");
-    syscall(setcursorx "0")
-    syscall(drawtext, "helli")
     
     syscall(motorset, "0:0");      //  Turn off the motors (stop)
