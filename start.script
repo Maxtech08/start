@@ -11,7 +11,7 @@
     syscall(motorleftset,  itos(100));     // Left Motor =  100 = Full Forwards
     syscall(motorrightset,  itos(100));   //  Right Motor = 100 = Full Forwards
     
-    syscall(delay, itos(1000));   //  Delay for 1,000ms = 1s
+    syscall(delay, itos(5000))
    
     
     syscall(motorset, "0:0");      //  Turn off the motors (stop)
