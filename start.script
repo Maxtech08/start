@@ -38,7 +38,7 @@
 
     syscall(delay, itos(1200));    //  Delay for 1,000ms = 1s
     
- syscall(motorleftset,  itos(100));     // Left Motor =  -100 = Full Reverse
+    syscall(motorleftset,  itos(100));     // Left Motor =  -100 = Full Reverse
     syscall(motorrightset,  itos(100));   //  Right Motor = 100 = Full Forwards
     
     syscall(delay, itos(4000));
